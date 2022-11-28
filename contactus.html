@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contactus.css" />
+  </head>
+  <body>
+    <div class="header">
+      <a href="#default" id="logo">Learn2Code</a>
+      <div class="header-right">
+        <a href="basicx.html">Home</a>
+        <a class="active" href="contactus.html">Contact</a>
+        <a href="aboutus.html">About Us</a>
+      </div>
+    </div>
+
+    <div class="title"><h1>Contact Us</h1></div>
+    <br />
+    <div class="container">
+      Tell us your concern and we'll contact you soon...
+      <br />
+      <br />
+      <div class="container">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
+
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+          <label for="Email">Email id</label>
+          <input
+            type="text"
+            id="Email"
+            name="Email"
+            placeholder="Your email id.."
+          />
+          <label for="Phone">Phone Number</label>
+          <input
+            type="text"
+            id="Phone"
+            name="Phone"
+            placeholder="Your Phone Number.."
+          />
+
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">India</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write your concern..."
+            style="height: 200px"
+          ></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+      
+    </div>
+
+    <div class="footer">
+      <hr />
+      You can also reach us at:
+      <br />
+      Email- id : Learn2Code@gmail.com<br />Toll-free Number: 011-95365<br />011-87748
+    </div>
+    <br><br><br>
+    
+  </body>
+</html>
